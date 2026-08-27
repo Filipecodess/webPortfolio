@@ -104,4 +104,57 @@ header .navegacao-primaria li a {
     }
 }
 
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    header .navegacao-primaria {
+        gap: 15px;
+    }
+
+    header .navegacao-primaria li a {
+        font-size: 1rem;
+    }
+
+    /* Conteúdo */
+    .section-div {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    /* Texto */
+    .section-div div {
+        margin-top: 0;
+        gap: 20px;
+    }
+
+    .section-div div h2 {
+        font-size: 2rem;
+    }
+
+    .section-div div p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* Imagem */
+    .section-div img {
+        width: 80%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
 
